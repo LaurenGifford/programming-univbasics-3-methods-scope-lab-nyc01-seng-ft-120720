@@ -9,12 +9,10 @@ def toadstool
 end
 
 def link
-  danger = "It's dangerous To Go Alone! Take This."
+  danger = "It's Dangerous To Go Alone! Take This."
   puts danger
 end
 
 def all_phrases
-puts link
-puts toadstool
-puts mario
+puts mario, toadstool, link
 end
